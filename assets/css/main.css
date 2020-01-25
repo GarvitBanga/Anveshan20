@@ -1816,7 +1816,8 @@ footer .newsletter_form .form-control {
   transition: all 300ms ease-in-out;
 }
 .btn:hover {
-  color: #18181c;
+  color: #f50136;
+  	transform: scale(1.2);
   background-color: #fff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
@@ -1861,7 +1862,8 @@ footer .newsletter_form .form-control {
   transition: all 300ms ease-in-out;
 }
 .btn-pr:hover {
-  background-color: #18181c;
+  background-color: #f50136;
+  	transform: scale(1.2);
   color: #ffffff;
   border: solid 1px #18181c;
   -webkit-transition: all 300ms ease-in-out;
@@ -1877,6 +1879,7 @@ footer .newsletter_form .form-control {
 }
 .btn-pr-outline:hover {
   background-color: #f50136;
+  	transform: scale(1.2);
   color: #ffffff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
@@ -1893,6 +1896,7 @@ footer .newsletter_form .form-control {
   color: #ffffff;
   border: solid 1px #18181c;
   background-color: #18181c;
+  	transform: scale(1.2);
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
@@ -1929,12 +1933,12 @@ Cover
   word-break: break-all;
 }
 .cover_slider .slider-content-center {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
 }
 .cover_slider .slider-content-left {
-  max-width: 800px;
+  max-width: 900px;
   text-align: left;
 }
 .cover_slider .cover_item {
@@ -1999,14 +2003,8 @@ Cover
 }
 .cover_slider .cover_item .slider_content .slider-content-inner a {
   opacity: 0;
-  -webkit-transform: translateY(20px);
-  transform: translateY(20px);
-  -webkit-transition: transform  0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out;
-  -webkit-transition: opacity 0.4s 1200ms ease-in-out, -webkit-transform  0.4s 1200ms ease-in-out;
-  transition: opacity 0.4s 1200ms ease-in-out, -webkit-transform  0.4s 1200ms ease-in-out;
-  transition: transform  0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out;
-  transition: transform  0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out, -webkit-transform  0.4s 1200ms ease-in-out;
-}
+  }
+
 .cover_slider .active .slider_content .slider-content-inner * .cover-title {
   opacity: 1;
   -webkit-transform: translateY(0px);
@@ -2030,11 +2028,6 @@ Cover
 }
 .cover_slider .active .slider_content .slider-content-inner * a {
   opacity: 1;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-  -webkit-transition: all 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out, color 0.4s ease-in-out, border 0.4s  ease-in-out, background-color 0.4s  ease-in-out;
-  -webkit-transition: all 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out, color 0.4s  ease-in-out, border 0.4s  ease-in-out, background-color 0.4s  ease-in-out;
-  transition: all 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out, color 0.4s  ease-in-out, border 0.4s  ease-in-out, background-color 0.4s  ease-in-out;
 }
 .cover_slider .owl-dots {
   bottom: 25px;
@@ -3151,7 +3144,7 @@ text-align: center;
 
 .navbar-brand {
     position:left;
-    width: 440px;
+    width: 500px;
     left: 0px;
     background-size: contain;
     position: left;
@@ -3165,4 +3158,8 @@ text-align: center;
   animation-fill-mode: none;
   animation-play-state: running;
   animation-name: shake;
+}
+
+.abcd:hover{
+	transform: scale(1.2);
 }
