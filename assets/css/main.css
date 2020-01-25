@@ -1817,7 +1817,7 @@ footer .newsletter_form .form-control {
 }
 .btn:hover {
   color: #f50136;
-  	transform: scale(1.2);
+  	transform: scale(1.3);
   background-color: #fff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
@@ -1863,7 +1863,7 @@ footer .newsletter_form .form-control {
 }
 .btn-pr:hover {
   background-color: #f50136;
-  	transform: scale(1.2);
+  	transform: scale(1.3);
   color: #ffffff;
   border: solid 1px #18181c;
   -webkit-transition: all 300ms ease-in-out;
@@ -1879,7 +1879,7 @@ footer .newsletter_form .form-control {
 }
 .btn-pr-outline:hover {
   background-color: #f50136;
-  	transform: scale(1.2);
+  	transform: scale(1.3);
   color: #ffffff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
@@ -1896,7 +1896,7 @@ footer .newsletter_form .form-control {
   color: #ffffff;
   border: solid 1px #18181c;
   background-color: #18181c;
-  	transform: scale(1.2);
+  	transform: scale(1.3);
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
