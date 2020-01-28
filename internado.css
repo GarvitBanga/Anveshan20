@@ -3242,3 +3242,30 @@
     font-size: large;
     color: whitesmoke;
   }
+
+
+
+  .signup-form1 input{
+    color:#000000;
+    padding: 0 16px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    font-size: large;
+  }
+  input.abc{
+     transform : scale(2);
+  }
+  input[type=checkbox] + label {
+ color: #000000;
+ font-style: normal;
+}
+input[type=checkbox]:checked + label {
+ color: blue;
+ font-weight: bold;
+}
+input.abcde{
+   transform : scale(1.2);
+}
