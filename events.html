@@ -22,6 +22,8 @@
 <link rel="stylesheet" href="assets/css/animate.min.css">
     <!-- Custom styles for this template -->
 <link href="assets/css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="css1/skrolr.css">
+
 <script src="/path/to/jquery.js"></script><!-- jQuery is required -->
 <script src="assets/js/jquery.countdown.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -29,6 +31,8 @@
 <script type="text/javascript" src="js/jquery.plugin.js"></script>
 <script type="text/javascript" src="js/jquery.countdown.js"></script>
 <script src="jquery.js"></script>
+<script src="js/modernizr.js"></script>
+
     <script>
     function jsredir() {
   window.location.href = "https://stackoverflow.com";
@@ -63,7 +67,9 @@
     <li class="nav-item">
       <a class="nav-link " href="#events">Events</a>
     </li>
-
+    <li class="nav-item">
+      <a class="nav-link " href="#speakers">Speakers</a>
+    </li>
     <li class="nav-item">
       <a class="nav-link " href="#contact">Contact</a>
     </li>
@@ -403,8 +409,103 @@
 
 
 
+
+<!-- speakers Section
+========================================================================================= -->
+<section id="speakers" class="pt10" style="background:#0b031b;">
+  <div class="container" style="background-color:#0b031b;">
+      <div class="section_title mb50" style="background-color:#0b031b;">
+          <h3 class="title" style="color:#f50136;">
+             our past speakers
+          </h3>
+      </div>
+  </div>
+    <div class="slider-wrapper hide" style="background:#0b031b;">
+        <ul id="speaker-slider">
+            <li class="speaker" style="width:30%;">
+                <img src="images/speakers/prof1.jpeg" class="lazyload">
+                <h3 style="font-size:20px; color:white;">Prof. Christopher<br> Berndt</h3>
+                <h4 style="font-size:14px;">Swiburne Institue of <br>Technology,Australia</h4>
+            </li>
+            <li class="speaker"  style="width:30%;">
+
+                <img src="images/speakers/prof2.jpg" class="lazyload">
+              <h3 style="font-size:20px; color:white;">Dr. Baldev Raj</h3>
+                <h4 style="font-size:14px;">Director, NIAS,<br>IISC Bangalore</h4>
+
+            </li>
+            <li class="speaker"  style="width:30%;">
+                <img src="images/speakers/prof3.jpg" class="lazyload">
+              <h3 style="font-size:20px; color:white;">Dr. K. Muraleedharan</h3>
+                <h4 style="font-size:14px;">Director Materials,<br>DRDO</h4>
+            </li>
+            <li class="speaker"  style="width:30%;">
+                <img src="images/speakers/prof4.png" class="lazyload">
+              <h3 style="font-size:20px; color:white;">Dr. Pradeep P</h3>
+                  <h4 style="font-size:14px;">Vice President,<br>TCS</h4>
+            </li>
+            <li class="speaker"  style="width:30%;">
+                <img src="images/speakers/prof5.jpg"
+                    class="lazyload">
+            <h3 style="font-size:20px; color:white;">Mr. Hemant M<br>Nerukar</h3>
+                  <h4 style="font-size:14px;">Managing Director<br>Tata Steel</h4>
+            </li>
+            <li class="speaker"  style="width:30%;">
+                <img src="images/speakers/prof6.jpeg" class="lazyload">
+              <h3 style="font-size:20px; color:white;">Dr. Partha Ghoshal</h3>
+                <h4 style="font-size:14px;">Scientist and Head<br>Electron Microscopy</h4>
+
+            </li>
+            <li class="speaker"  style="width:30%;">
+                <img src="images/speakers/prof7.jpeg" class="lazyload">
+              <h3 style="font-size:24px; color:white;">Dr. Kamanio <br>Chattopadhyay</h3>
+                  <h4 style="font-size:14px;">Former President<br>Indian Instituteof Metals</h4>
+
+            </li>
+            <li class="speaker"  style="width:30%;">
+                <img src="images/speakers/prof8.jpg" class="lazyload">
+              <h3 style="font-size:24px; color:white;">Prof. K.A. <br>Padmanabhavan</h3>
+                  <h4 style="font-size:14px;">Former Director,<br>IIT Kanpur</h4>
+
+            </li>
+        </ul>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--footer start -->
-<footer id="contact">
+<footer id="contact"class="pt20">
+  <div class="container" style="background-color:#0b031b;">
+      <div class="section_title mb20" style="background-color:#0b031b;">
+          <h3 class="title" style="color:#f50136;">
+             Contact US
+          </h3>
+      </div>
+  </div>
     <div class="container">
         <div class="row justify-content-center">
 
@@ -520,6 +621,22 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> | <st
 <script src="assets/js/wow.min.js"></script>
 <!-- Custom js -->
 <script src="assets/js/main.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.11.0/lazyload.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+<script src="js1/jquery.flexslider-min.js"></script>
+<script src="js1/jquery.waypoints.min.js"></script>
+<script src="js1/jquery.validate.min.js"></script>
+<script src="js1/jquery.fittext.js"></script>
+<script src="js1/jquery.placeholder.min.js"></script>
+<script src="js1/jquery.magnific-popup.min.js"></script>
+<script src="js1/skrolr.es6.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js1/main.js?ver=2.6"></script>
 
 </body>
 </html>

@@ -97,7 +97,7 @@ ul.nosyely_list {
   font-size: 36px;
 }
 .section_title .title:before {
-  width: 20%;
+  width: 15%;
   content: " ";
   position: absolute;
   border-top: solid 3px #f50136;
@@ -3162,4 +3162,164 @@ text-align: center;
 
 .abcd:hover{
 	transform: scale(1.2);
+}
+
+
+
+#speakers,
+#sponsors {
+    padding: 60px 0 0 0;
+}
+
+.slider-wrapper {
+    width: 100%;
+    max-width: 1064px;
+    margin: 40px auto 0 auto;
+    overflow: hidden;
+}
+
+#speaker-slider,
+#sponsor-slider {
+    width: 100%;
+    margin: 0;
+    padding: 0 28px;
+}
+
+.speaker {
+    overflow: hidden;
+    height: 400px;
+}
+
+.sponsor {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s;
+}
+
+.speaker img {
+    width: 200px;
+    height: 200px;
+    position: center;
+    border-radius: 50%;
+}
+
+.sponsor img {
+    width: 200px;
+    height: 100px;
+    position: center;
+    border-radius: 20px;
+    background: white;
+    border: 2px solid #b6b5b4;
+    padding: 20px;
+}
+
+.speaker h3,
+.sponsor h3 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 0 0 0;
+}
+
+.speaker h4,
+.sponsor h4 {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: #e4b101;
+}
+
+#speakers .slider-wrapper>div {
+    /* margin-bottom: 100px; */
+}
+
+#sponsors .slider-wrapper>div {
+    /* background: white; */
+    display: flex;
+}
+
+
+.all-sponsors,
+.all-speakers {
+    margin: auto;
+}
+
+.all-sponsors a,
+.all-speakers a {
+    font: 12px/54px "raleway-heavy", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: block;
+    height: 54px;
+    width: 220px;
+    border-radius: 3px;
+    background: #e64e04;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    margin: 30px auto;
+}
+.slider-wrapper {
+    width: 100%;
+    max-width: 1064px;
+    margin: 40px auto 0 auto;
+    overflow: hidden;
+}
+
+
+.section-head h1 {
+    font: 15px/30px "raleway-heavy", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    margin-top: 18px;
+}
+
+.section-head h1 span {
+    color: #fdc501;
+    position: relative;
+    left: 3px;
+}
+
+.section-head p {
+    font: 20px/36px "merriweather-regular", serif;
+    width: 95%;
+}
+
+.section-head:hover h1+hr {
+    border-color: #fdc501;
+    width: 120px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .section-head {
+        text-align: center;
+    }
+
+    .section-head p {
+        font: 18px/36px "merriweather-regular", serif;
+        width: auto;
+    }
+
+    .section-head h1+hr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section-head p {
+        font: 17px/33px "merriweather-regular", serif;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .section-head [class*="column"] {
+        padding: 0;
+    }
 }
