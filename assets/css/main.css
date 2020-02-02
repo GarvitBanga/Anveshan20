@@ -1674,8 +1674,7 @@ header.sticky_header{
     display: block;
     visibility: visible;
   }
-  header {
-    background-color: #0b031b;}
+
 }
 @media (max-width: 767px) {
   header {
