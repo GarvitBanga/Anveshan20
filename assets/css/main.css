@@ -1648,7 +1648,7 @@ header li ul.sub_menu li a:hover {
 }
 
 header.sticky_header{
-  background-color: #000000;
+  background-color: #0b031b;
   margin: 0;
   padding: 5px;
   -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
@@ -1677,7 +1677,7 @@ header.sticky_header{
 }
 @media (max-width: 767px) {
   header {
-    background-color: #18181c;
+    background-color: #0b031b;
     margin: 0;
     -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
     box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
