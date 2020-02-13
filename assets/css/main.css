@@ -1589,11 +1589,7 @@ header .logo {
   padding-top: 0;
   padding-bottom: 0;
 }
-header .logo img {
-  float: left;
-  max-width: 160px;
-  margin-right: 3px;
-}
+
 header ul.menu li a.nav-link {
   padding: 20px 12px !important;
   font-size: 12px;
