@@ -3145,7 +3145,7 @@ text-align: center;
 
 .navbar-brand {
     position:left;
-    width: 380px;
+    width: 500px;
     left: 0px;
     background-size: contain;
     position: left;
@@ -3323,4 +3323,14 @@ text-align: center;
     .section-head [class*="column"] {
         padding: 0;
     }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+      position:left;
+      width: 340px;
+      left: 0px;
+      background-size: contain;
+      position: left;
+  }
 }
