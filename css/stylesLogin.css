@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #5cdb95;
+  text-align: center;
+}
+
+#registerForm {
+  margin: auto;
+  margin-top: 50px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  background-color: #053865;
+  color: #edf5e1;
+  width: 400px;
+}

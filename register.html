@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+	    <script src='js/bootstrap.min.js'></script>  
+        <link rel="stylesheet" href='./css/bootstrap.min.css'>
+        <link rel="stylesheet" href='./css/stylesRegister.css'>
+        <script src="./js/register.js" defer></script>
+    </head>
+    <body>
+        <div id="registerForm">
+          <section>
+            <h3>Register</h3>
+            <form>
+              <label for="name">Name</label><br><input type="text" id="name" name="name" placeholder="name"><br>
+                <label for="email">Email</label><br><input type="text" id="email" name="email" placeholder="email"><br>
+                <label for="password">Password</label><br><input type="password" id="pwd" name="pwd" placeholder="password"><br><br>
+            </form>
+            <button id="submitbtn">Register</button>
+            <p>Already a User?<a href="./login.html">Sign In</a></p>
+          </section>
+        </div>
+        
+        <div id="errors"></div>
+    </body>
+</html>
